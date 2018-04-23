@@ -16,16 +16,16 @@ apps:
         plugs:
             - network
             - network-bind
-    monero-wallet-rpc:
+    lorentz-wallet-rpc:
         command: |
-          monero-wallet-rpc --log-file ${SNAP_USER_DATA}
+          lorentz-wallet-rpc --log-file ${SNAP_USER_DATA}
         plugs:
             - home
             - network
             - network-bind
-    monero-wallet-cli:
+    lorentz-wallet-cli:
         command: |
-          monero-wallet-cli --log-file ${SNAP_USER_DATA}
+          lorentz-wallet-cli --log-file ${SNAP_USER_DATA}
         plugs:
             - home
             - network
