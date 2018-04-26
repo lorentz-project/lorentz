@@ -1,5 +1,5 @@
 # Copyright (c) 2018, The Lorentz Project
-# Copyright (c) 2014-2018, The Monero Project
+# Copyright (c) 2014-2018, The Lorentz Project
 # 
 # All rights reserved.
 # 

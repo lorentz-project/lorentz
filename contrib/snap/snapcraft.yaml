@@ -9,10 +9,10 @@ grade: devel
 confinement: strict
 
 apps:
-    monerod:
+    lorentzd:
         daemon: forking
         command: |
-          monerod-wrapper --detach --data-dir ${SNAP_COMMON} --config-file ${SNAP_USER_DATA}/etc/monerod.conf
+          lorentzd-wrapper --detach --data-dir ${SNAP_COMMON} --config-file ${SNAP_USER_DATA}/etc/lorentzd.conf
         plugs:
             - network
             - network-bind
@@ -71,8 +71,8 @@ parts:
         plugin: dump
         source: .
         organize:
-            contrib/snap/monerod.conf: etc/monerod.conf
-            contrib/snap/monerod-wrapper: bin/monerod-wrapper
+            contrib/snap/lorentzd.conf: etc/lorentzd.conf
+            contrib/snap/lorentzd-wrapper: bin/lorentzd-wrapper
         prime:
             - etc
             - bin
