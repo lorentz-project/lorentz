@@ -161,8 +161,10 @@ namespace config
       // 0x12 ,0x30, 0xF1, 0x71 , 0x61, 0x04 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x10
       0x48, 0x65, 0x6E, 0x64, 0x72, 0x69, 0x6B, 0x20, 0x20, 0x4C, 0x6F, 0x72, 0x65, 0x6E, 0x74, 0x7A
     } }; // Bender's nightmare
-  std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1";
-  uint32_t const GENESIS_NONCE = 10000;
+  //std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1";
+  //uint32_t const GENESIS_NONCE = 10000;
+  std::string const GENESIS_TX = "013c01ff0006ff9fdb58029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807180a8d6b907022a74a3c4c36d32e95633d44ba9a7b8188297b2ac91afecab826b86fabaa709168088aca3cf020252d128bc9913d5ee8b702c37609917c2357b2f587e5de5622348a3acd718e5d68090cad2c60e02b8ed916c56b3a99c9cdf22c7be7ec4e85587e5d40bc46bf6995313c288ad841e80e08d84ddcb01021b452b4ac6c6419e06181f8c9f0734bd5bb132d8b75b44bbcd07dd8f553acba680c0caf384a30202b10ba13e303cbe9abf7d5d44f1d417727abcc14903a74e071abd652ce1bf76dd21013f253f2aa7e694b971cd619bc2ea5b15968b96eaeac8ad0be95bc2974eab7214";
+  uint32_t const GENESIS_NONCE = 0;
 
   namespace testnet
   {
