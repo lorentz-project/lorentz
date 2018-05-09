@@ -278,35 +278,35 @@ PRAGMA_WARNING_DISABLE_VS(4355)
     
     if (!e)
     {
-		{
-			CRITICAL_REGION_LOCAL(m_throttle_speed_in_mutex);
-			m_throttle_speed_in.handle_trafic_exact(bytes_transferred);
-			context.m_current_speed_down = m_throttle_speed_in.get_current_speed();
-		}
+		  {
+			  CRITICAL_REGION_LOCAL(m_throttle_speed_in_mutex);
+			  m_throttle_speed_in.handle_trafic_exact(bytes_transferred);
+			  context.m_current_speed_down = m_throttle_speed_in.get_current_speed();
+		  }
     
-    {
-			CRITICAL_REGION_LOCAL(	epee::net_utils::network_throttle_manager::network_throttle_manager::m_lock_get_global_throttle_in );
-			epee::net_utils::network_throttle_manager::network_throttle_manager::get_global_throttle_in().handle_trafic_exact(bytes_transferred);
-		}
+      {
+			  CRITICAL_REGION_LOCAL(	epee::net_utils::network_throttle_manager::network_throttle_manager::m_lock_get_global_throttle_in );
+			  epee::net_utils::network_throttle_manager::network_throttle_manager::get_global_throttle_in().handle_trafic_exact(bytes_transferred);
+		  }
 
-		double delay=0; // will be calculated - how much we should sleep to obey speed limit etc
+		  double delay=0; // will be calculated - how much we should sleep to obey speed limit etc
 
 
-		if (speed_limit_is_enabled()) {
-			do // keep sleeping if we should sleep
-			{
-				{ //_scope_dbg1("CRITICAL_REGION_LOCAL");
-					CRITICAL_REGION_LOCAL(	epee::net_utils::network_throttle_manager::m_lock_get_global_throttle_in );
-					delay = epee::net_utils::network_throttle_manager::get_global_throttle_in().get_sleep_time_after_tick( bytes_transferred );
-				}
+		  if (speed_limit_is_enabled()) {
+			  do // keep sleeping if we should sleep
+			  {
+				  { //_scope_dbg1("CRITICAL_REGION_LOCAL");
+					  CRITICAL_REGION_LOCAL(	epee::net_utils::network_throttle_manager::m_lock_get_global_throttle_in );
+					  delay = epee::net_utils::network_throttle_manager::get_global_throttle_in().get_sleep_time_after_tick( bytes_transferred );
+				  }
 				
-				delay *= 0.5;
-				if (delay > 0) {
-					long int ms = (long int)(delay * 100);
-					boost::this_thread::sleep_for(boost::chrono::milliseconds(ms));
-				}
-			} while(delay > 0);
-		} // any form of sleeping
+			  	delay *= 0.5;
+				  if (delay > 0) {
+					  long int ms = (long int)(delay * 100);
+					  boost::this_thread::sleep_for(boost::chrono::milliseconds(ms));
+				  }
+			  } while(delay > 0);
+		  } // any form of sleeping
 		
       //_info("[sock " << socket_.native_handle() << "] RECV " << bytes_transferred);
       logger_handle_net_read(bytes_transferred);

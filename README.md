@@ -5,9 +5,9 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Web: [getmonero.org](https://getmonero.org)
-- Forum: [forum.getmonero.org](https://forum.getmonero.org)
-- Mail: [dev@getmonero.org](mailto:dev@getmonero.org)
+- Web: [getlorentz.org](https://getlorentz.org)
+- Forum: [forum.getlorentz.org](https://forum.getlorentz.org)
+- Mail: [dev@getlorentz.org](mailto:dev@getlorentz.org)
 - GitHub: [https://github.com/monero-project/monero](https://github.com/monero-project/monero)
 - IRC: [#monero-dev on Freenode](http://webchat.freenode.net/?randomnick=1&channels=%23monero-dev&prompt=1&uio=d4)
 
@@ -20,17 +20,17 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 | Operating System      | Processor | Status |
 | --------------------- | -------- |--------|
-| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://build.getmonero.org/png?builder=monero-static-ubuntu-i686)](https://build.getmonero.org/builders/monero-static-ubuntu-i686)
-| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getmonero.org/png?builder=monero-static-ubuntu-amd64)](https://build.getmonero.org/builders/monero-static-ubuntu-amd64)
-| Ubuntu 16.04          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getmonero.org/png?builder=monero-static-ubuntu-arm7)](https://build.getmonero.org/builders/monero-static-ubuntu-arm7)
-| Debian Stable         |  armv8   | [![Debian armv8](https://build.getmonero.org/png?builder=monero-static-debian-armv8)](https://build.getmonero.org/builders/monero-static-debian-armv8)
-| OSX 10.10             |  amd64   | [![OSX 10.10 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.10)](https://build.getmonero.org/builders/monero-static-osx-10.10)
-| OSX 10.11             |  amd64   | [![OSX 10.11 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.11)](https://build.getmonero.org/builders/monero-static-osx-10.11)
-| OSX 10.12             |  amd64   | [![OSX 10.12 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.12)](https://build.getmonero.org/builders/monero-static-osx-10.12)
-| FreeBSD 11            |  amd64   | [![FreeBSD 11 amd64](https://build.getmonero.org/png?builder=monero-static-freebsd64)](https://build.getmonero.org/builders/monero-static-freebsd64)
-| DragonFly BSD 4.6     |  amd64   | [![DragonFly BSD amd64](https://build.getmonero.org/png?builder=monero-static-dragonflybsd-amd64)](https://build.getmonero.org/builders/monero-static-dragonflybsd-amd64)
-| Windows (MSYS2/MinGW) |  i686    | [![Windows (MSYS2/MinGW) i686](https://build.getmonero.org/png?builder=monero-static-win32)](https://build.getmonero.org/builders/monero-static-win32)
-| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.getmonero.org/png?builder=monero-static-win64)](https://build.getmonero.org/builders/monero-static-win64)
+| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://build.getlorentz.org/png?builder=monero-static-ubuntu-i686)](https://build.getlorentz.org/builders/monero-static-ubuntu-i686)
+| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getlorentz.org/png?builder=monero-static-ubuntu-amd64)](https://build.getlorentz.org/builders/monero-static-ubuntu-amd64)
+| Ubuntu 16.04          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getlorentz.org/png?builder=monero-static-ubuntu-arm7)](https://build.getlorentz.org/builders/monero-static-ubuntu-arm7)
+| Debian Stable         |  armv8   | [![Debian armv8](https://build.getlorentz.org/png?builder=monero-static-debian-armv8)](https://build.getlorentz.org/builders/monero-static-debian-armv8)
+| OSX 10.10             |  amd64   | [![OSX 10.10 amd64](https://build.getlorentz.org/png?builder=monero-static-osx-10.10)](https://build.getlorentz.org/builders/monero-static-osx-10.10)
+| OSX 10.11             |  amd64   | [![OSX 10.11 amd64](https://build.getlorentz.org/png?builder=monero-static-osx-10.11)](https://build.getlorentz.org/builders/monero-static-osx-10.11)
+| OSX 10.12             |  amd64   | [![OSX 10.12 amd64](https://build.getlorentz.org/png?builder=monero-static-osx-10.12)](https://build.getlorentz.org/builders/monero-static-osx-10.12)
+| FreeBSD 11            |  amd64   | [![FreeBSD 11 amd64](https://build.getlorentz.org/png?builder=monero-static-freebsd64)](https://build.getlorentz.org/builders/monero-static-freebsd64)
+| DragonFly BSD 4.6     |  amd64   | [![DragonFly BSD amd64](https://build.getlorentz.org/png?builder=monero-static-dragonflybsd-amd64)](https://build.getlorentz.org/builders/monero-static-dragonflybsd-amd64)
+| Windows (MSYS2/MinGW) |  i686    | [![Windows (MSYS2/MinGW) i686](https://build.getlorentz.org/png?builder=monero-static-win32)](https://build.getlorentz.org/builders/monero-static-win32)
+| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.getlorentz.org/png?builder=monero-static-win64)](https://build.getlorentz.org/builders/monero-static-win64)
 
 ## Coverage
 
@@ -60,7 +60,7 @@ As with many development projects, the repository on Github is considered to be 
 
 ## Supporting the project
 
-Monero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Monero and Bitcoin donations can be made to **donate.getmonero.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send XMR to the Monero donation address via the `donate` command (type `help` in the command-line wallet for details).
+Monero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Monero and Bitcoin donations can be made to **donate.getlorentz.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send XMR to the Monero donation address via the `donate` command (type `help` in the command-line wallet for details).
 
 The Monero donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
 
@@ -68,13 +68,13 @@ The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
 
 Core development funding and/or some supporting services are also graciously provided by sponsors:
 
-[<img width="80" src="https://static.getmonero.org/images/sponsors/mymonero.png"/>](https://mymonero.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/kitware.png?1"/>](http://kitware.com)
-[<img width="100" src="https://static.getmonero.org/images/sponsors/dome9.png"/>](http://dome9.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/araxis.png"/>](http://araxis.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/jetbrains.png"/>](http://www.jetbrains.com/)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/navicat.png"/>](http://www.navicat.com/)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/symas.png"/>](http://www.symas.com/)
+[<img width="80" src="https://static.getlorentz.org/images/sponsors/mymonero.png"/>](https://mymonero.com)
+[<img width="150" src="https://static.getlorentz.org/images/sponsors/kitware.png?1"/>](http://kitware.com)
+[<img width="100" src="https://static.getlorentz.org/images/sponsors/dome9.png"/>](http://dome9.com)
+[<img width="150" src="https://static.getlorentz.org/images/sponsors/araxis.png"/>](http://araxis.com)
+[<img width="150" src="https://static.getlorentz.org/images/sponsors/jetbrains.png"/>](http://www.jetbrains.com/)
+[<img width="150" src="https://static.getlorentz.org/images/sponsors/navicat.png"/>](http://www.navicat.com/)
+[<img width="150" src="https://static.getlorentz.org/images/sponsors/symas.png"/>](http://www.symas.com/)
 
 There are also several mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
 
