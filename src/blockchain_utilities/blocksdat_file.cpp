@@ -110,6 +110,7 @@ void BlocksdatFile::write_block(const crypto::hash& block_hash)
     memmove(m_hashes.data(), m_hashes.data() + HASH_OF_HASHES_STEP, (m_hashes.size() - HASH_OF_HASHES_STEP) * sizeof(crypto::hash));
     m_hashes.resize(m_hashes.size() - HASH_OF_HASHES_STEP);
     const std::string data(hash.data, sizeof(hash));
+    // MINFO("Writing hash to dat file: " <<  block_hash);
     *m_raw_data_file << data;
   }
 }
