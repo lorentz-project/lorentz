@@ -415,8 +415,7 @@ bool Blockchain::init(BlockchainDB* db, const network_type nettype, bool offline
 
   if (m_nettype != FAKECHAIN)
   {
-    // ensure we fixup anything we found and fix in the future
-    m_db->fixup();
+    m_db->set_batch_transactions(true);
   }
 
   m_db->block_txn_start(true);
