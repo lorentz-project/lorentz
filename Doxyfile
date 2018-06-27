@@ -2057,7 +2057,6 @@ HIDE_UNDOC_RELATIONS   = YES
 # The default value is: NO.
 
 # HAVE_DOT               = $(HAVE_DOT)
-HAVE_DOT               = YES
 
 # The DOT_NUM_THREADS specifies the number of dot invocations doxygen is allowed
 # to run in parallel. When set to 0 doxygen will base this on the number of

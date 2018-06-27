@@ -169,8 +169,6 @@ namespace cryptonote
 
     tx.invalidate_hashes();
 
-    //LOG_PRINT("MINER_TX generated ok, block_reward=" << print_money(block_reward) << "("  << print_money(block_reward - fee) << "+" << print_money(fee)
-    //  << "), current_block_size=" << current_block_size << ", already_generated_coins=" << already_generated_coins << ", tx_id=" << get_transaction_hash(tx), LOG_LEVEL_2);
     MINFO("MINER_TX generated ok, block_reward=" << print_money(block_reward) << "("  << print_money(block_reward - fee) << "+" << print_money(fee)
       << "), current_block_size=" << current_block_size << ", already_generated_coins=" << already_generated_coins << ", tx_id=" << get_transaction_hash(tx));
     return true;
@@ -643,36 +641,6 @@ namespace cryptonote
   {
     //genesis block
     bl = boost::value_initialized<block>();
-
-/////////////////////////////////////////////////////////
-/*
-  account_base genesis_miner;
-  genesis_miner.generate();
-
-  std::string add_str = genesis_miner.get_public_address_str(MAINNET);
-
-  construct_miner_tx(0, 0, 0, 0, 0, genesis_miner.get_keys().m_account_address, genesis_tx);
-*/
-//////////////////////////////////////////////////////////
-    account_public_address ac = boost::value_initialized<account_public_address>();
-    std::vector<size_t> sz;
-    construct_miner_tx(0, 0, 0, 0, 0, ac, bl.miner_tx); // zero fee in genesis
-    blobdata txb = tx_to_blob(bl.miner_tx);
-    std::string hex_tx_represent = string_tools::buff_to_hex_nodelimer(txb);
-    // Display Genesis Block
-    // std::cout << "Genesis Block Coinbase Hex = " << hex_tx_represent << std::endl;
-    MINFO("Genesis Block Coinbase Hex = " << hex_tx_represent);
-    MINFO("Genesis Block Nonce = " << bl.nonce);
-    //MINFO("Genesis Block Hash = " << bl.hash);
-    /*MINFO("Genesis Block Major Version = " << bl.major_version);
-    MINFO("Genesis Block Minor Version = " << bl.minor_version);
-    MINFO("Genesis Block Miner TX = " << bl.miner_tx);
-    MINFO("Genesis Block Previous TX = " << bl.prev_id);
-    MINFO("Genesis Block Timestamp = " << bl.timestamp);
-    MINFO("Genesis Block TX Hashes = " << bl.tx_hashes);
-    */
-    
-//////////////////////////////////////////////////////////
 
     blobdata tx_bl;
     bool r = string_tools::parse_hexstr_to_binbuff(genesis_tx, tx_bl);

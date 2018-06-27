@@ -112,10 +112,10 @@ static const struct {
   // version 7 starts from block 1546000, which is on or around the 6th of April, 2018. Fork time finalised on 2018-03-17.
   { 7, 1546000, 0, 1521303150 },
 */
-  { 7, 1299, 0, 1528376400 },
+  { 7, 1150, 0, 1528376400 },
 };
 // static const uint64_t mainnet_hard_fork_version_1_till = 1009826;
-static const uint64_t mainnet_hard_fork_version_1_till = 1298;
+static const uint64_t mainnet_hard_fork_version_1_till = 1149;
 
 static const struct {
   uint8_t version;
