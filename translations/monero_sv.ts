@@ -1147,8 +1147,8 @@ Denna transaktion låses upp vid block %llu, om ungefär %s dagar (förutsatt en
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="679"/>
-        <source>Current fee is %s monero per kB</source>
-        <translation>Aktuell avgift är %s monero per kB</translation>
+        <source>Current fee is %s lorentz per kB</source>
+        <translation>Aktuell avgift är %s lorentz per kB</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="695"/>
@@ -1702,8 +1702,8 @@ Om argumentet &quot;tag_description&quot; anges, så tilldelas taggen &lt;taggna
    Set the fee too default/unimportant/normal/elevated/priority.
  confirm-missing-payment-id &lt;1|0>
  ask-password &lt;1|0>
- unit &lt;monero|millinero|micronero|nanonero|piconero>
-   Set the default monero (sub-)unit.
+ unit &lt;lorentz|millinero|micronero|nanonero|piconero>
+   Set the default lorentz (sub-)unit.
  min-outputs-count [n]
    Try to keep at least that many outputs of value at least min-outputs-value.
  min-outputs-value [n]
@@ -1737,8 +1737,8 @@ Om argumentet &quot;tag_description&quot; anges, så tilldelas taggen &lt;taggna
    Sätt avgiften till default/unimportant/normal/elevated/priority.
  confirm-missing-payment-id &lt;1|0>
  ask-password &lt;1|0>
- unit &lt;monero|millinero|micronero|nanonero|piconero>
-   Ange standardvärde för moneroenhet.
+ unit &lt;lorentz|millinero|micronero|nanonero|piconero>
+   Ange standardvärde för lorentzenhet.
  min-outputs-count [n]
    Försök att behålla åtminstone så många utgångar med åtminstone värdet min-outputs-value.
  min-outputs-value [n]
@@ -2609,8 +2609,8 @@ Varning: Några ingångsnycklar som spenderas kommer från </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1923"/>
-        <source>monero, millinero, micronero, nanonero, piconero</source>
-        <translation>monero, millinero, micronero, nanonero, piconero</translation>
+        <source>lorentz, millinero, micronero, nanonero, piconero</source>
+        <translation>lorentz, millinero, micronero, nanonero, piconero</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1975"/>
@@ -3759,8 +3759,8 @@ Utgångar per *: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="129"/>
-        <source>The newly created transaction will not be relayed to the monero network</source>
-        <translation>Den nyss skapade transaktionen kommer inte att skickas vidare till monero-nätverket</translation>
+        <source>The newly created transaction will not be relayed to the lorentz network</source>
+        <translation>Den nyss skapade transaktionen kommer inte att skickas vidare till lorentz-nätverket</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="171"/>
@@ -3779,7 +3779,7 @@ Utgångar per *: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="6787"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line lorentz wallet. It needs to connect to a lorentz
 daemon to work correctly.</source>
         <translation>Detta är kommandoradsplånboken för Lorentz. Den måste ansluta till en Lorentz-
 daemon för att fungera korrekt.</translation>
@@ -4023,9 +4023,9 @@ daemon för att fungera korrekt.</translation>
     </message>
     <message>
         <location filename="../src/wallet/wallet_rpc_server.cpp" line="2870"/>
-        <source>This is the RPC monero wallet. It needs to connect to a monero
+        <source>This is the RPC lorentz wallet. It needs to connect to a lorentz
 daemon to work correctly.</source>
-        <translation>Detta är RPC-plånboken för monero. Den måste ansluta till en Lorentz-
+        <translation>Detta är RPC-plånboken för lorentz. Den måste ansluta till en Lorentz-
 daemon för att fungera korrekt.</translation>
     </message>
     <message>
@@ -4132,7 +4132,7 @@ daemon för att fungera korrekt.</translation>
     </message>
     <message>
         <location filename="../src/wallet/wallet_args.cpp" line="138"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line lorentz wallet. It needs to connect to a lorentz
 daemon to work correctly.</source>
         <translation>Detta är kommandoradsplånboken för Lorentz. Den måste ansluta till en Lorentz-
 daemon för att fungera korrekt.</translation>

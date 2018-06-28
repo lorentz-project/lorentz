@@ -131,10 +131,10 @@ namespace nodetool
     { 
       "seed-0.insominus.com",
       "seed-1.insominus.com"
-    /*"seeds.moneroseeds.se"
-    , "seeds.moneroseeds.ae.org"
-    , "seeds.moneroseeds.ch"
-    , "seeds.moneroseeds.li"
+    /*"seeds.lorentzseeds.se"
+    , "seeds.lorentzseeds.ae.org"
+    , "seeds.lorentzseeds.ch"
+    , "seeds.lorentzseeds.li"
     */
     };
 

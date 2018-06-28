@@ -1,9 +1,9 @@
 Lorentz daemon internationalization
 ==================================
 
-The Lorentz command line tools can be translated in various languages. If you wish to contribute and need help/support, contact the [Lorentz Localization Workgroup on Taiga](https://taiga.getlorentz.org/project/erciccione-monero-localization/) or come chat on `#monero-translations` (Freenode/IRC, riot/matrix, MatterMost)
+The Lorentz command line tools can be translated in various languages. If you wish to contribute and need help/support, contact the [Lorentz Localization Workgroup on Taiga](https://taiga.getlorentz.org/project/erciccione-lorentz-localization/) or come chat on `#lorentz-translations` (Freenode/IRC, riot/matrix, MatterMost)
 
-In order to use the same translation workflow as the [Lorentz Core GUI](https://github.com/monero-project/monero-core), they use Qt Linguist translation files.  However, to avoid the dependencies on Qt this normally implies, they use a custom loader to read those files at runtime.
+In order to use the same translation workflow as the [Lorentz Core GUI](https://github.com/lorentz-project/lorentz-core), they use Qt Linguist translation files.  However, to avoid the dependencies on Qt this normally implies, they use a custom loader to read those files at runtime.
 
 ### Tools for translators
 

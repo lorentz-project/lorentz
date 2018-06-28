@@ -8,36 +8,36 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 - Web: [getlorentz.org](https://getlorentz.org)
 - Forum: [forum.getlorentz.org](https://forum.getlorentz.org)
 - Mail: [dev@getlorentz.org](mailto:dev@getlorentz.org)
-- GitHub: [https://github.com/monero-project/monero](https://github.com/monero-project/monero)
-- IRC: [#monero-dev on Freenode](http://webchat.freenode.net/?randomnick=1&channels=%23monero-dev&prompt=1&uio=d4)
+- GitHub: [https://github.com/lorentz-project/lorentz](https://github.com/lorentz-project/lorentz)
+- IRC: [#lorentz-dev on Freenode](http://webchat.freenode.net/?randomnick=1&channels=%23lorentz-dev&prompt=1&uio=d4)
 
 ## Vulnerability response
 
-- Our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
-- We are also available via [HackerOne](https://hackerone.com/monero)
+- Our [Vulnerability Response Process](https://github.com/lorentz-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
+- We are also available via [HackerOne](https://hackerone.com/lorentz)
 
 ## Build
 
 | Operating System      | Processor | Status |
 | --------------------- | -------- |--------|
-| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://build.getlorentz.org/png?builder=monero-static-ubuntu-i686)](https://build.getlorentz.org/builders/monero-static-ubuntu-i686)
-| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getlorentz.org/png?builder=monero-static-ubuntu-amd64)](https://build.getlorentz.org/builders/monero-static-ubuntu-amd64)
-| Ubuntu 16.04          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getlorentz.org/png?builder=monero-static-ubuntu-arm7)](https://build.getlorentz.org/builders/monero-static-ubuntu-arm7)
-| Debian Stable         |  armv8   | [![Debian armv8](https://build.getlorentz.org/png?builder=monero-static-debian-armv8)](https://build.getlorentz.org/builders/monero-static-debian-armv8)
-| OSX 10.10             |  amd64   | [![OSX 10.10 amd64](https://build.getlorentz.org/png?builder=monero-static-osx-10.10)](https://build.getlorentz.org/builders/monero-static-osx-10.10)
-| OSX 10.11             |  amd64   | [![OSX 10.11 amd64](https://build.getlorentz.org/png?builder=monero-static-osx-10.11)](https://build.getlorentz.org/builders/monero-static-osx-10.11)
-| OSX 10.12             |  amd64   | [![OSX 10.12 amd64](https://build.getlorentz.org/png?builder=monero-static-osx-10.12)](https://build.getlorentz.org/builders/monero-static-osx-10.12)
-| FreeBSD 11            |  amd64   | [![FreeBSD 11 amd64](https://build.getlorentz.org/png?builder=monero-static-freebsd64)](https://build.getlorentz.org/builders/monero-static-freebsd64)
-| DragonFly BSD 4.6     |  amd64   | [![DragonFly BSD amd64](https://build.getlorentz.org/png?builder=monero-static-dragonflybsd-amd64)](https://build.getlorentz.org/builders/monero-static-dragonflybsd-amd64)
-| Windows (MSYS2/MinGW) |  i686    | [![Windows (MSYS2/MinGW) i686](https://build.getlorentz.org/png?builder=monero-static-win32)](https://build.getlorentz.org/builders/monero-static-win32)
-| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.getlorentz.org/png?builder=monero-static-win64)](https://build.getlorentz.org/builders/monero-static-win64)
+| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://build.getlorentz.org/png?builder=lorentz-static-ubuntu-i686)](https://build.getlorentz.org/builders/lorentz-static-ubuntu-i686)
+| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getlorentz.org/png?builder=lorentz-static-ubuntu-amd64)](https://build.getlorentz.org/builders/lorentz-static-ubuntu-amd64)
+| Ubuntu 16.04          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getlorentz.org/png?builder=lorentz-static-ubuntu-arm7)](https://build.getlorentz.org/builders/lorentz-static-ubuntu-arm7)
+| Debian Stable         |  armv8   | [![Debian armv8](https://build.getlorentz.org/png?builder=lorentz-static-debian-armv8)](https://build.getlorentz.org/builders/lorentz-static-debian-armv8)
+| OSX 10.10             |  amd64   | [![OSX 10.10 amd64](https://build.getlorentz.org/png?builder=lorentz-static-osx-10.10)](https://build.getlorentz.org/builders/lorentz-static-osx-10.10)
+| OSX 10.11             |  amd64   | [![OSX 10.11 amd64](https://build.getlorentz.org/png?builder=lorentz-static-osx-10.11)](https://build.getlorentz.org/builders/lorentz-static-osx-10.11)
+| OSX 10.12             |  amd64   | [![OSX 10.12 amd64](https://build.getlorentz.org/png?builder=lorentz-static-osx-10.12)](https://build.getlorentz.org/builders/lorentz-static-osx-10.12)
+| FreeBSD 11            |  amd64   | [![FreeBSD 11 amd64](https://build.getlorentz.org/png?builder=lorentz-static-freebsd64)](https://build.getlorentz.org/builders/lorentz-static-freebsd64)
+| DragonFly BSD 4.6     |  amd64   | [![DragonFly BSD amd64](https://build.getlorentz.org/png?builder=lorentz-static-dragonflybsd-amd64)](https://build.getlorentz.org/builders/lorentz-static-dragonflybsd-amd64)
+| Windows (MSYS2/MinGW) |  i686    | [![Windows (MSYS2/MinGW) i686](https://build.getlorentz.org/png?builder=lorentz-static-win32)](https://build.getlorentz.org/builders/lorentz-static-win32)
+| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.getlorentz.org/png?builder=lorentz-static-win64)](https://build.getlorentz.org/builders/lorentz-static-win64)
 
 ## Coverage
 
 | Type      | Status |
 |-----------|--------|
 | Coverity  | [![Coverity Status](https://scan.coverity.com/projects/9657/badge.svg)](https://scan.coverity.com/projects/9657/)
-| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/monero-project/monero/badge.svg?branch=master)](https://coveralls.io/github/monero-project/monero?branch=master)
+| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/lorentz-project/lorentz/badge.svg?branch=master)](https://coveralls.io/github/lorentz-project/lorentz?branch=master)
 | License   | [![License](https://img.shields.io/badge/license-BSD3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Introduction
@@ -68,7 +68,7 @@ The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
 
 Core development funding and/or some supporting services are also graciously provided by sponsors:
 
-[<img width="80" src="https://static.getlorentz.org/images/sponsors/mymonero.png"/>](https://mymonero.com)
+[<img width="80" src="https://static.getlorentz.org/images/sponsors/mylorentz.png"/>](https://mylorentz.com)
 [<img width="150" src="https://static.getlorentz.org/images/sponsors/kitware.png?1"/>](http://kitware.com)
 [<img width="100" src="https://static.getlorentz.org/images/sponsors/dome9.png"/>](http://dome9.com)
 [<img width="150" src="https://static.getlorentz.org/images/sponsors/araxis.png"/>](http://araxis.com)
@@ -114,40 +114,40 @@ Packages are available for
 
 * Ubuntu and [snap supported](https://snapcraft.io/docs/core/install) systems, via a community contributed build.
 
-    snap install monero --beta
+    snap install lorentz --beta
 
 Installing a snap is very quick. Snaps are secure. They are isolated with all of their dependencies. Snaps also auto update when a new version is released.
 
 * Arch Linux (via [AUR](https://aur.archlinux.org/)):
-  - Stable release: [`monero`](https://aur.archlinux.org/packages/monero)
-  - Bleeding edge: [`monero-git`](https://aur.archlinux.org/packages/monero-git)
+  - Stable release: [`lorentz`](https://aur.archlinux.org/packages/lorentz)
+  - Bleeding edge: [`lorentz-git`](https://aur.archlinux.org/packages/lorentz-git)
 
 * Void Linux:
 
-    xbps-install -S monero
+    xbps-install -S lorentz
 
 * GuixSD
 
-        guix package -i monero
+        guix package -i lorentz
 
 * OS X via [Homebrew](http://brew.sh)
 
         brew tap sammy007/cryptonight
-        brew install monero --build-from-source
+        brew install lorentz --build-from-source
 
 * Docker
 
         # Build using all available cores
-        docker build -t monero .
+        docker build -t lorentz .
 
         # or build using a specific number of cores (reduce RAM requirement)
-        docker build --build-arg NPROC=1 -t monero .
+        docker build --build-arg NPROC=1 -t lorentz .
      
         # either run in foreground
-        docker run -it -v /monero/chain:/root/.bitlorentz -v /monero/wallet:/wallet -p 18080:18080 monero
+        docker run -it -v /lorentz/chain:/root/.bitlorentz -v /lorentz/wallet:/wallet -p 18080:18080 lorentz
 
         # or in background
-        docker run -it -d -v /monero/chain:/root/.bitlorentz -v /monero/wallet:/wallet -p 18080:18080 monero
+        docker run -it -d -v /lorentz/chain:/root/.bitlorentz -v /lorentz/wallet:/wallet -p 18080:18080 lorentz
 
 Packaging for your favorite distribution would be a welcome contribution!
 
@@ -192,11 +192,11 @@ build the library binary manually. This can be done with the following command `
 
 Clone recursively to pull-in needed submodule(s):
 
-`$ git clone --recursive https://github.com/monero-project/monero`
+`$ git clone --recursive https://github.com/lorentz-project/lorentz`
 
 If you already have a repo cloned, initialize and update:
 
-`$ cd monero && git submodule init && git submodule update`
+`$ cd lorentz && git submodule init && git submodule update`
 
 ### Build instructions
 
@@ -208,7 +208,7 @@ invokes cmake commands as needed.
 * Install the dependencies
 * Change to the root of the source code directory and build:
 
-        cd monero
+        cd lorentz
         make
 
     *Optional*: If your machine has several cores and enough memory, enable
@@ -221,7 +221,7 @@ invokes cmake commands as needed.
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monero/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/lorentz/build/release/bin"` to `.profile`
 
 * Run Monero with `lorentzd --detach`
 
@@ -258,10 +258,10 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 	CONF_SWAPSIZE=1024  
 	sudo /etc/init.d/dphys-swapfile start  
 ```
-* Clone monero and checkout most recent release version:
+* Clone lorentz and checkout most recent release version:
 ```
-        git clone https://github.com/monero-project/monero.git
-	cd monero
+        git clone https://github.com/lorentz-project/lorentz.git
+	cd lorentz
 	git checkout tags/v0.11.1.0
 ```
 * Build:
@@ -272,7 +272,7 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monero/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/lorentz/build/release/bin"` to `.profile`
 
 * Run Monero with `lorentzd --detach`
 
@@ -308,7 +308,7 @@ If you are using the older Raspbian Jessie image, compiling Monero is a bit more
 ```
 * Wait ~4 hours
 
-* From here, follow the [general Raspberry Pi instructions](#on-the-raspberry-pi) from the "Clone monero and checkout most recent release version" step.
+* From here, follow the [general Raspberry Pi instructions](#on-the-raspberry-pi) from the "Clone lorentz and checkout most recent release version" step.
 
 #### On Windows:
 
@@ -361,7 +361,7 @@ application.
 
 ### On FreeBSD:
 
-The project can be built from scratch by following instructions for Linux above. If you are running monero in a jail you need to add the flag: `allow.sysvipc=1` to your jail configuration, otherwise lmdb will throw the error message: `Failed to open lmdb environment: Function not implemented`.
+The project can be built from scratch by following instructions for Linux above. If you are running lorentz in a jail you need to add the flag: `allow.sysvipc=1` to your jail configuration, otherwise lmdb will throw the error message: `Failed to open lmdb environment: Function not implemented`.
 
 We expect to add Monero into the ports tree in the near future, which will aid in managing installations using ports or packages.
 
@@ -453,7 +453,7 @@ cmake ..
 doas make install
 ```
 
-Build monero: `env DEVELOPER_LOCAL_TOOLS=1 BOOST_ROOT=/usr/local make release-static`
+Build lorentz: `env DEVELOPER_LOCAL_TOOLS=1 BOOST_ROOT=/usr/local make release-static`
 
 ### On Solaris:
 
@@ -469,11 +469,11 @@ Then you can run make as usual.
 ### On Linux for Android (using docker):
 
         # Build image (select android64.Dockerfile for aarch64)
-        cd utils/build_scripts/ && docker build -f android32.Dockerfile -t monero-android .
+        cd utils/build_scripts/ && docker build -f android32.Dockerfile -t lorentz-android .
         # Create container
-        docker create -it --name monero-android monero-android bash
+        docker create -it --name lorentz-android lorentz-android bash
         # Get binaries
-        docker cp monero-android:/opt/android/monero/build/release/bin .
+        docker cp lorentz-android:/opt/android/lorentz/build/release/bin .
 
 ### Building portable statically linked binaries
 
@@ -508,7 +508,7 @@ To run in background:
 To run as a systemd service, copy
 [lorentzd.service](utils/systemd/lorentzd.service) to `/etc/systemd/system/` and
 [lorentzd.conf](utils/conf/lorentzd.conf) to `/etc/`. The [example
-service](utils/systemd/lorentzd.service) assumes that the user `monero` exists
+service](utils/systemd/lorentzd.service) assumes that the user `lorentz` exists
 and its home is the data directory specified in the [example
 config](utils/conf/lorentzd.conf).
 
@@ -591,7 +591,7 @@ You can now analyse this core dump with `gdb` as follows:
 
 Print the stack trace with `bt`
 
-* To run monero within gdb:
+* To run lorentz within gdb:
 
 Type `gdb /path/to/lorentzd`
 
@@ -611,7 +611,7 @@ Instructions for debugging suspected blockchain corruption as per @HYC
 
 There is an `mdb_stat` command in the LMDB source that can print statistics about the database but it's not routinely built. This can be built with the following command:
 
-`cd ~/monero/external/db_drivers/liblmdb && make`
+`cd ~/lorentz/external/db_drivers/liblmdb && make`
 
 The output of `mdb_stat -ea <path to blockchain dir>` will indicate inconsistencies in the blocks, block_heights and block_info table.
 
