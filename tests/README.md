@@ -3,7 +3,7 @@
 To run all tests, run:
 
 ```
-cd /path/to/monero
+cd /path/to/lorentz
 make [-jn] debug-test # where n is number of compiler processes
 ```
 
